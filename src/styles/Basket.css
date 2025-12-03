@@ -1,0 +1,21 @@
+.basket-card {
+  background: #ffffffc9;
+  backdrop-filter: blur(10px);
+}
+
+.qty-controller button {
+  border-radius: 8px;
+}
+
+.summary-box {
+  border-left: 4px solid #0d6efd;
+}
+
+.empty-box {
+  background: #f8f9fa;
+}
+
+.basket-item:hover {
+  background: #f8faff;
+  transition: 0.2s ease-in-out;
+}

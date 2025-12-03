@@ -1,0 +1,89 @@
+/* Header */
+.products-header {
+  color: #0077ff;
+  letter-spacing: 1px;
+}
+
+/* Card */
+.product-card {
+  width: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 16px;
+  border: none;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.15) !important;
+}
+
+.product-card-img {
+  height: 180px;
+  object-fit: contain;
+  background-color: #f8faff;
+  padding: 10px;
+}
+
+/* Price */
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+/* Add + Button */
+.btn-add {
+  border-radius: 12px !important;
+  font-size: 1rem !important;
+  padding: 4px 14px !important;
+}
+
+/* Quantity */
+.qty-box {
+  font-size: 0.85rem;
+  background: #f8f9fa;
+  border-radius: 50px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.qty-btn {
+  padding: 0px 6px !important;
+  font-weight: bold !important;
+}
+
+/* Offer tag */
+.offer-tag {
+  background-color: #e6f6e6;
+  color: #0a5c0a;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+/* Product name  */
+.product-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Product description */
+.product-desc {
+  font-size: 0.85rem;
+  min-height: 50px;
+  color: #555;
+}
+
+/* View Basket Button */
+.view-basket-btn {
+  background: linear-gradient(135deg, #007bff 0%, #0056d2 100%);
+  border-radius: 14px !important;
+  font-weight: bold;
+}
+
+
