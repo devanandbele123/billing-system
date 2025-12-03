@@ -56,7 +56,7 @@ const cartSlice = createSlice({
       state.items = {}; // empty all cart items
       clearCartStorage(); // clear localStorage
     },
-  },
+  }, 
 });
 
 // Export actions so components can use them
